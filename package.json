@@ -18,7 +18,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.24.0",
-    "react-tilt": "^0.1.4",
+    "react-tilt": "^0.2.2", 
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.149.0"
   },
@@ -30,10 +30,5 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
     "vite": "^4.1.0"
-  },
-  "overrides": {
-    "react-tilt": {
-      "react": "^16.0.0-beta"
-    }
   }
 }
