@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-     "install-force": "npm install --force"
+     "install-force": "npm install --force",
+    "install-legacy": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
