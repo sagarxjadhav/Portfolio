@@ -7,13 +7,11 @@
     "update-browserslist": "npx update-browserslist-db@latest",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-     "install-force": "npm install --force",
-    "install-legacy": "npm install --legacy-peer-deps"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
-    "@react-three/drei": "^9.107.0",
+    "@react-three/drei": "^9.108.1",
     "@react-three/fiber": "^8.16.8",
     "framer-motion": "^9.1.7",
     "maath": "^0.5.3",
@@ -32,5 +30,10 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
     "vite": "^4.1.0"
+  },
+  "overrides": {
+    "react-tilt": {
+      "react": "^16.0.0-beta"
+    }
   }
 }
